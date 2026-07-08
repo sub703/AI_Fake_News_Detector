@@ -70,7 +70,7 @@ To eliminate structural mismatches between training and local execution, I packa
 2. **Acquire the Raw Datasets:**
    To replicate or view the training process, download the exact source files into a local `data/` folder sitting right next to the project:
    *   **WELFake Dataset:** Download from the [Kaggle WELFake News Classification Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification).
-   *   **ISOT Dataset:** Download the `True.csv` / `Fake.csv` pair from the [Kaggle Fake News Detection Datasets by emineyetm](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets).
+   *   **ISOT Dataset:** Download the `True.csv` / `Fake.csv` pair from the authoritative [Kaggle Fake and Real News Dataset by Clément Bisaillon](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset).
    *(Note: These raw `.csv` files are automatically ignored by git via our `.gitignore` rules to keep the repository size clean and optimized).*
 
 3. **Install Dependencies:**
