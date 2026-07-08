@@ -1,3 +1,7 @@
+# **AI Fake News Detector**
+
+---
+
 # 🛡️ Building a Leak-Proof AI Fake News Detector 
 
 Most fake news classifiers look great on paper but fail completely in the real world because they accidentally train on "dataset leaks"—like finding corporate wire tags unique to one source. This project implements a leak-proof, end-to-end Machine Learning pipeline and interactive Streamlit web dashboard. 
