@@ -79,3 +79,12 @@ To eliminate structural mismatches between training and local execution, I packa
    ```bash
    streamlit run app.py
    ```
+
+---
+
+## Author
+
+**Subrata Kumar Dey**
+
+B.Tech. Computer Science & Engineering (Cyber Security & Privacy)  
+DIT University
