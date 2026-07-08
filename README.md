@@ -23,6 +23,22 @@ A common trap in NLP is reaching for heavy, slow transformers right away. During
 
 ---
 
+## 🚀 Live Demo Interface Showcase
+
+### 1. Flagging Clickbait Disinformation
+The pipeline successfully leverages negative word weights to flag sensational language frames with absolute certainty:
+![Likely Fake State](Screenshots/fake_demo.png)
+
+### 2. Verifying Formal Journalistic Structure
+The model isolates semantic layouts and structural phrasing to pass our strict 57% safety boundary cutoff floor:
+![Likely Real State](Screenshots/real_demo.png)
+
+### 3. Activating the Uncertainty Fallback Banners
+When incoming language signals are mixed or too ambiguous to clear precision constraints, the UI declines to force a blind guess:
+![Uncertain Safety Floor State](Screenshots/uncertain_demo.png)
+
+---
+
 ## 🛠️ Critical Engineering Milestones
 
 ### 1. Defeating Dataset Leaks with Regex Prefilters
