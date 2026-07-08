@@ -68,7 +68,10 @@ To eliminate structural mismatches between training and local execution, I packa
    ```
 
 2. **Acquire the Raw Datasets:**
-   To replicate or view training, download the original source files from [WELFake on Zenodo](https://zenodo.org) and [ISOT on Kaggle](https://kaggle.com) into a local `data/` folder. *(Note: CSV files are ignored by git via `.gitignore` to maintain clean repository sizing).*
+   To replicate or view the training process, download the exact source files into a local `data/` folder sitting right next to the project:
+   *   **WELFake Dataset:** Download from the [Kaggle WELFake News Classification Dataset](https://kaggle.com).
+   *   **ISOT Dataset:** Download the `True.csv` / `Fake.csv` pair from the [Kaggle Fake News Detection Datasets by emineyetm](https://kaggle.com).
+   *(Note: These raw `.csv` files are automatically ignored by git via our `.gitignore` rules to keep the repository size clean and optimized).*
 
 3. **Install Dependencies:**
    ```bash
